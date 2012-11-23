@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#main {
+	width: 50%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+p {
+	font-size: 36px;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	background-color: #ED4732;
+	padding: 0;
+	height: 34px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	float: left;
+	list-style-type: none;
+}
+ul li a {
+	float: left;
+	padding: 6px 1em;
+	color: white;
+	text-decoration: none;
+}
+
+.floatingHeader {
+	position: fixed;
+	top: 0;
+	visibility: visible;
+}

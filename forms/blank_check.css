@@ -1,0 +1,40 @@
+.input {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.input label {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	line-height: 0;
+	color: #a6a6a6;
+}
+
+.text {
+	border: 1px solid #207d2d;
+	padding: 10px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+
+.text:focus {
+	box-shadow: 0 0 10px #43ca28;
+	-webkit-box-shadow: 0 0 10px #43ca28;
+	-moz-box-shadow: 0 0 10px #43ca28;
+	outline: none;
+}
+.missing.text:focus {
+	box-shadow: 0 0 10px #eb2e2e;
+	-webkit-box-shadow: 0 0 10px #eb2e2e;
+	-moz-box-shadow: 0 0 10px #eb2e2e;
+	outline: none;
+}
+.missing {
+	box-shadow: 0 0 10px #eb2e2e;
+	-webkit-box-shadow: 0 0 10px #eb2e2e;
+	-moz-box-shadow: 0 0 10px #eb2e2e;
+	border: 1px solid #eb2e2e;
+}

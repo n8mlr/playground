@@ -1,0 +1,14 @@
+.box {
+	position: absolute;
+	left: 40px;
+	width: 100px;
+	height: 100px;
+	background-color: #b02d2d;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.box.totheright { left: 400px; }
+.box.totheleft { left: 40px; }
